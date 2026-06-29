@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "737116822274",
+    "project_id": "injustice-auth-ef939",
+    "storage_bucket": "injustice-auth-ef939.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737116822274:android:0ccc78785e9d002c4e801b",
+        "android_client_info": {
+          "package_name": "com.example.injustice_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737116822274-qj2p46qmbs1m9mo4q33pmraotifarvd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.injustice_app",
+            "certificate_hash": "2651edb904f08e33b1363a56af0fc4255fd003f8"
+          }
+        },
+        {
+          "client_id": "737116822274-anjrjcii9qhkoe77moiks66imcej1eeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVx0jT53RHzCDMCv_E6YH8ODSw1Mdo4Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737116822274-anjrjcii9qhkoe77moiks66imcej1eeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
