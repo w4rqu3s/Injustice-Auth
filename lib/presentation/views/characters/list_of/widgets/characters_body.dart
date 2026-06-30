@@ -158,7 +158,7 @@ class CharacterListItem extends StatelessWidget {
         }
       },
       onDismissed: (direction) {
-        if (direction == DismissDirection.endToStart) {
+        if (direction == DismissDirection.startToEnd) {
           onDelete();
         }
       },

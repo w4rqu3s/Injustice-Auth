@@ -75,15 +75,29 @@ class CharactersCommandsViewModel {
   // ========================================================
 
   /// Buscar todos os personagens
-  void _observeGetAllCharacters() {
+  // void _observeGetAllCharacters() {
+  //   _observeCommand<List<Character>>(
+  //     _getAccountCommand,
+  //     onSuccess: (characters) {
+  //       state.clearMessage(); // Limpa mensagens anteriores
+  //       state.state.value = characters;
+  //     },
+  //     onFailure: (err) =>
+  //         state.setMessage(err.msg), // registra o erro no estado
+  //   );
+  // }
+
+    void _observeGetAllCharacters() {
     _observeCommand<List<Character>>(
       _getAccountCommand,
       onSuccess: (characters) {
         state.clearMessage(); // Limpa mensagens anteriores
         state.state.value = characters;
       },
-      onFailure: (err) =>
-          state.setMessage(err.msg), // registra o erro no estado
+      onFailure: (err) {
+        state.setMessage(err.msg); // registra o erro no estado
+        state.state.value = [];
+      },
     );
   }
 
